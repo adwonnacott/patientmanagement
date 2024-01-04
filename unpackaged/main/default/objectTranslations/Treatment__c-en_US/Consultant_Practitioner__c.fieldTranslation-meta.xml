@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A Facility Consultant is an Individual (Contact) who works at a Facility (Account); select when cost is payable to the Facility --></help>
+        <label><!-- Facility Consultant --></label>
+        <name>Consultant_Practitioner__c</name>
+        <relationshipLabel><!-- Treatments --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Contact at a Facility who directs the actions under a Case --></help>
+        <label><!-- Lead Facility Contact --></label>
+        <name>Lead_Facility_Contact__c</name>
+        <relationshipLabel><!-- Cases (Facility Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

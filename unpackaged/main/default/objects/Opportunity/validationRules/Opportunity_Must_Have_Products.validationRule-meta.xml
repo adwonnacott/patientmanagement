@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Must_Have_Products</fullName>
+    <active>true</active>
+    <description>TotalOpportunityQuantity = 0 AND Stage = &quot;X&quot; or later	Opportunities at &#39;X&#39; Stage must have Products selected</description>
+    <errorConditionFormula>AND(
+  OR(
+   ISBLANK( TotalOpportunityQuantity ), 
+   TotalOpportunityQuantity = 0
+  ),
+  OR(
+   ISPICKVAL(StageName, &quot;Value Proposition&quot;),
+   ISPICKVAL(StageName, &quot;Perception Analysis&quot;),
+   ISPICKVAL(StageName, &quot;Proposal / Price Quote&quot;),
+   ISPICKVAL(StageName, &quot;Negotiation / Review&quot;),
+   ISPICKVAL(StageName, &quot;Closed Won&quot;)
+  )
+)</errorConditionFormula>
+    <errorMessage>Please add Product/s before moving the Stage</errorMessage>
+</ValidationRule>

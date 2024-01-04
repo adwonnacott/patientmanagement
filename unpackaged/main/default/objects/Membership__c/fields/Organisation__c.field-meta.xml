@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organisation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Organisation Account that the Membership relates to, if appropriate</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Organisation Account that the Membership relates to (optional)</inlineHelpText>
+    <label>Organisation</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Organisation Memberships</relationshipLabel>
+    <relationshipName>Memberships2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

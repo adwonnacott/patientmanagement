@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved By Doctor</masterLabel>
+            <translation><!-- Approved By Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For Review</masterLabel>
+            <translation><!-- For Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected By Doctor</masterLabel>
+            <translation><!-- Rejected By Doctor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

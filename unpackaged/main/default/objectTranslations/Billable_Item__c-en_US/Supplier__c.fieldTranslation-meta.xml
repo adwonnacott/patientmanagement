@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Supply Type = External, the Supplier Account --></help>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <relationshipLabel><!-- Billable Items (Supplier) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+        <picklistValues>
+            <masterLabel>External - Consultant Direct</masterLabel>
+            <translation><!-- External - Consultant Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External - Facility</masterLabel>
+            <translation><!-- External - Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

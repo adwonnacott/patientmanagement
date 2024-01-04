@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Relationship to Patient --></label>
+        <name>Relationship_to_Patient__c</name>
+        <picklistValues>
+            <masterLabel>Father</masterLabel>
+            <translation><!-- Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP</masterLabel>
+            <translation><!-- GP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husband</masterLabel>
+            <translation><!-- Husband --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Guardian</masterLabel>
+            <translation><!-- Legal Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wife</masterLabel>
+            <translation><!-- Wife --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
